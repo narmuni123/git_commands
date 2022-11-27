@@ -1,0 +1,80 @@
+
+1 - git init // To initialize an empty git repository in your project
+
+- git status // to check the status of the changes
+
+To add working area to staging area
+
+- git add <fileName> 
+
+To add all files
+
+- git add .
+
+
+To commit
+
+- git commit -m "commit message"
+
+
+To see the commits use
+
+- git log
+
+To compare past chnages and present changes in the working file
+
+- git diff <fileName>
+
+To add a origin or remote repo
+
+- git remote add origin https://github.com/repo.com
+
+To push code
+
+- git pish -u origin branchNAme(master)
+
+// git ignore
+
+Files qith api keys, user preferences, utility files
+
+
+How to remove all thhe files fromstaging area bback to working area
+
+- git rm --cached -r .
+
+To add  a girt ignore
+
+touch .gitignore
+
+
+//Cloning
+
+Cloning a remote reository or pulling into your local system
+
+- git clone url
+
+// Branching and merging
+
+create new branch
+
+- git branch branch-name
+
+check for branches
+
+- git branch
+
+check out a branch
+
+- git checkout branchName
+
+// merge two branches 
+
+got to the branch 
+
+- git merge branchName
+- :q! // to save and quit
+
+
+// Forking
+
+
